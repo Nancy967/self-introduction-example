@@ -1,6 +1,26 @@
-1. 找一個音樂檔案嵌入(用audio標簽),要有控制面板,不要自動撥放,但播放後要自動重複
-2. 找一個影片檔案嵌入(用video標簽),要求同上
-3. 同2,但改用embed標簽
-4. 找一個youtube影片,將該影片嵌入
-5. 頁首要有一個連結可以跳到"我的自傳"的頁面
-6. 頁尾要有一個連結可以回到首頁
+<a href="/ex01/page2/page2.html">我的自傳</a>
+
+<br>
+
+<audio controls loop>
+    <source src="/ex01/media/music.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+
+<video width="320" height="240" controls loop>
+    <source src="/ex01/media/fall.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<embed type="video/webm" src="/ex01/media/fall.mp4" width="400" height="300">
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JsHqEpWQl-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+<a href="/ex01/index.html">首頁</a>
+
